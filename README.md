@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+./bin/scrape --metadata http://www.ikea.com
 
 ## Development
 
