@@ -18,10 +18,9 @@ module Scrapeful
           next
         end
 
-        filename = Scrapeful::FriendlyFilename.new(for_url: url)
-
-        puts filename
-        puts url
+        webpage = Webpage.new(url: url)
+        webpage.print_metadata if metadata
+        webpage.scrape
       end
     end
   end

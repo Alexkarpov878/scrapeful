@@ -20,6 +20,10 @@ module Scrapeful
       end
     end
 
+    def print_metadata
+      puts metadata
+    end
+
     def parsed_html
       Nokogiri::HTML(source_code)
     end
@@ -30,6 +34,14 @@ module Scrapeful
 
     def images
       parsed_html.xpath(Scrapeful::Selectors::IMAGES_V1)
+    end
+
+    def metadata
+      [
+        "Images: #{images.count}",
+        "Links: #{links.count}",
+        "Last fetch: #{File.file?(friendly_filename) ? File.mtime(friendly_filename) : Time.now}"
+      ]
     end
   end
 end
