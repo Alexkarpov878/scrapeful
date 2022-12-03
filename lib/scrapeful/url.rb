@@ -4,7 +4,7 @@ module Scrapeful
   class URL
     attr_reader :address, :errors
 
-    def initialize(address: )
+    def initialize(address:)
       @address = address
       @errors = []
     end

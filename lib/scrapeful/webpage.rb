@@ -38,9 +38,10 @@ module Scrapeful
 
     def metadata
       [
-        "Images: #{images.count}",
-        "Links: #{links.count}",
-        "Last fetch: #{File.file?(friendly_filename) ? File.mtime(friendly_filename) : Time.now}"
+        "site :#{url}",
+        "num_links: #{links.count}",
+        "images: #{images.count}",
+        "last_fetch: #{File.file?(friendly_filename) ? File.mtime(friendly_filename) : Time.now}"
       ]
     end
   end

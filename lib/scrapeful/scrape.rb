@@ -18,7 +18,7 @@ module Scrapeful
           next
         end
 
-        webpage = Webpage.new(url: url)
+        webpage = Webpage.new(url:)
         webpage.print_metadata if metadata
         webpage.scrape
       end

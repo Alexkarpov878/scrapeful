@@ -15,7 +15,6 @@ RSpec.describe Scrapeful::Webpage do
       it { expect { subject.scrape }.to_not raise_error }
     end
 
-
     # TODO: Split in separate tests
     describe '.links' do
       before do
