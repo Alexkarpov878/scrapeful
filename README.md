@@ -3,6 +3,9 @@
 ## TODO
 - Add VCR
 - Add missing tests
+- Format date in metadata
+- Count images added with css
+- Count links added with JS, SPA
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -21,7 +24,7 @@ Or install it yourself as:
 
 ## Usage
 
-./bin/scrape --metadata http://www.ikea.com
+`./bin/scrape --metadata http://www.ikea.com`
 
 ## Docker
 1. `docker build -t scrapeful .`
