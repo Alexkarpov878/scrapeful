@@ -1,8 +1,5 @@
 # Scrapeful
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/scrapeful`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -41,3 +38,8 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Scrapeful project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/scrapeful/blob/master/CODE_OF_CONDUCT.md).
+
+## Worklog (yyyy-mm-dd hh:mm)
+Time spend: 0
+
+Start 2022-12-03 11:00AM
