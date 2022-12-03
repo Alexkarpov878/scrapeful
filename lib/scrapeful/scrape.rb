@@ -10,7 +10,14 @@ module Scrapeful
     end
 
     def run
-      urls.each do |url|
+      urls.each do |raw_url|
+        url = Scrapeful::URL.new(address: raw_url)
+
+        unless url.valid?
+          puts url.errors.map { |error| error[:message] }
+          next
+        end
+
         puts url
       end
     end
