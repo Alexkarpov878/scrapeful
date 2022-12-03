@@ -2,7 +2,7 @@
 
 module Scrapeful
   class Webpage
-    attr_accessor :url, :friendly_filename
+    attr_accessor :url, :friendly_filename, :source_code
 
     def initialize(url:)
       @url = url.to_s
@@ -18,6 +18,14 @@ module Scrapeful
       File.open(path, 'w') do |file|
         file.write(source_code)
       end
+    end
+
+    def parsed_html
+      Nokogiri::HTML(source_code)
+    end
+
+    def links
+      parsed_html.xpath(Scrapeful::Selectors::LINKS_V1)
     end
   end
 end
