@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'open-uri'
+require 'nokogiri'
 
 require_relative 'scrapeful/version'
 require_relative 'scrapeful/scrape'

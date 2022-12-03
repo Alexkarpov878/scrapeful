@@ -2,11 +2,15 @@ PATH
   remote: .
   specs:
     scrapeful (0.1.0)
+      nokogiri (~> 1.13.9)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.5.0)
+    nokogiri (1.13.9-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.6.0)
     rake (13.0.6)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
