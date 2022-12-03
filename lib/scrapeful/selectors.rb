@@ -9,5 +9,11 @@ module Scrapeful
       //input[@type='button']
       //input[@type='reset']
     ].join('|')
+
+    IMAGES_V1 = %w[
+      //meta[@property="og:image"]
+      //meta[@itemprop="image"]
+      //img
+    ].join('|')
   end
 end

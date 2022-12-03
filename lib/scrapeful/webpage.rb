@@ -27,5 +27,9 @@ module Scrapeful
     def links
       parsed_html.xpath(Scrapeful::Selectors::LINKS_V1)
     end
+
+    def images
+      parsed_html.xpath(Scrapeful::Selectors::IMAGES_V1)
+    end
   end
 end
