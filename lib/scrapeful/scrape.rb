@@ -18,6 +18,9 @@ module Scrapeful
           next
         end
 
+        filename = Scrapeful::FriendlyFilename.new(for_url: url)
+
+        puts filename
         puts url
       end
     end
