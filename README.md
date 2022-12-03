@@ -2,7 +2,7 @@
 
 ## TODO
 - Add VCR
-
+- Add missing tests
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,6 +22,10 @@ Or install it yourself as:
 ## Usage
 
 ./bin/scrape --metadata http://www.ikea.com
+
+## Docker
+1. `docker build -t scrapeful .`
+2. `docker run scrapeful ./bin/scrapeful https://www.ikea.ca --metadata`
 
 ## Development
 
@@ -45,3 +49,4 @@ Everyone interacting in the Scrapeful project's codebases, issue trackers, chat 
 Time spend: 0
 
 Start 2022-12-03 11:00AM
+Break 20 mins (Washroom & Coffee)
