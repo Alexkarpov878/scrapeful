@@ -4,8 +4,9 @@
 - Add VCR
 - Add missing tests
 - Format date in metadata
-- Count images added with css
+- Count images added with CSS
 - Count links added with JS, SPA
+- Import externally referenced script/CSS to the HTML and replace images with inline base64 versions for offline viewing while maintaining the single HTML file per scrape requirement
 ## Installation
 
 Add this line to your application's Gemfile:
