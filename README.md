@@ -31,6 +31,14 @@ Or install it yourself as:
 1. `docker build -t scrapeful .`
 2. `docker run scrapeful ./bin/scrapeful https://www.ikea.ca --metadata`
 
+## Worklog (yyyy-mm-dd hh:mm)
+Time spend: 4H
+
+Start 2022-12-03 11:00AM
+Break 20 mins (Washroom & Coffee)
+Finish Time: 11:20
+* Minor README.md edits were made after finish time
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -49,8 +57,3 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 Everyone interacting in the Scrapeful project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/scrapeful/blob/master/CODE_OF_CONDUCT.md).
 
-## Worklog (yyyy-mm-dd hh:mm)
-Time spend: 0
-
-Start 2022-12-03 11:00AM
-Break 20 mins (Washroom & Coffee)
