@@ -36,7 +36,7 @@ Time spend: 4H
 
 Start 2022-12-03 11:00AM
 Break 20 mins (Washroom & Coffee)
-Finish Time: 11:20
+Finish Time: 14:20
 * Minor README.md edits were made after finish time
 
 ## Development
